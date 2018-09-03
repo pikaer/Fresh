@@ -2,6 +2,7 @@ package net.zixue.bean;
 
 import com.mysql.fabric.xmlrpc.base.Data;
 
+//类别
 public class Category {
     private int c_id;
     private  String c_name;
