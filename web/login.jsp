@@ -5,9 +5,9 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Document</title>
-    <script type="text/javascript" src="../../../../../WorkFiles/51zixuewang/fresh/web/static/js/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="../../../../../WorkFiles/51zixuewang/fresh/web/static/js/login.js"></script>
-    <link href="../../../../../WorkFiles/51zixuewang/fresh/web/static/css/login2.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="static/js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="static/js/login.js"></script>
+    <link href="static/css/login2.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <h1>
@@ -104,11 +104,8 @@
                     </li>
                     <li>
                         <div class="inputArea">
-
-                            <input type="submit" id="reg"
-                                   style="margin-top: 10px; margin-left: 85px;"
-                                   class="button_blue" value="同意协议并注册"/> <a href="#" class="zcxy"
-                                                                            target="_blank.">注册协议</a>
+                            <input type="submit" id="reg" style="margin-top: 10px; margin-left: 85px;"  class="button_blue" value="同意协议并注册"/>
+                            <a href="#" class="zcxy" target="_blank.">注册协议</a>
                         </div>
                     </li>
                     <div class="cl"></div>

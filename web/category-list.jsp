@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>index</title>
-	<link rel="stylesheet" href="../../../../../WorkFiles/51zixuewang/fresh/web/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
 	<style type="text/css">
 		body{ font-family: 'Microsoft YaHei';}
 		/*.panel-body{ padding: 0; }*/
@@ -145,7 +145,7 @@
 </div>
 
 
-	<script src="../../../../../WorkFiles/51zixuewang/fresh/web/static/js/jquery-3.1.0.min.js"></script>
-	<script src="../../../../../WorkFiles/51zixuewang/fresh/web/static/js/bootstrap.min.js"></script>
+	<script src="static/js/jquery-3.1.0.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>

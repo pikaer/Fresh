@@ -43,18 +43,12 @@ public class LoginServlet extends HttpServlet {
                 response.addCookie(passwordCookie);
 
             }
-            //登录成功跳转生鲜种类列表界面
+            /* 登录成功跳转生鲜种类列表界面 */
             response.sendRedirect(request.getContextPath()+"/category-list.jsp");
         }else {
             //登录失败提示
             response.setContentType("text/html;charset=utf-8");
             response.getWriter().write("用户登录失败");
-
         }
-
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
     }
 }
