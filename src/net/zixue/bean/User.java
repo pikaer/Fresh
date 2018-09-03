@@ -1,5 +1,6 @@
 package net.zixue.bean;
 
+//用户
 public class User {
 
     private int id;
