@@ -1,7 +1,7 @@
 package net.zixue.service;
-
 import net.zixue.bean.User;
 import net.zixue.dao.UserDao;
+import java.sql.SQLException;
 
 public class UserService {
     //1. 判断注册用户是否存在
@@ -14,5 +14,11 @@ public class UserService {
             register = userDao.register(user);
         }
         return register;
+    }
+
+    public User login(String name, String password) throws SQLException {
+        UserDao userDao=new UserDao();
+        User user = userDao.login(name, password);
+        return  user;
     }
 }

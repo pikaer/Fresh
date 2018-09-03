@@ -24,7 +24,6 @@ public class UserDao {
 
     public boolean register(User user) {
         try {
-
             ComboPooledDataSource dataSource=new ComboPooledDataSource();
             QueryRunner queryRunner=new QueryRunner(dataSource);
             String sql="insert into user values(null,?,?,?)";
@@ -37,6 +36,13 @@ public class UserDao {
             e.printStackTrace();
             return  false;
         }
+    }
 
+    public User login(String name, String password) throws SQLException {
+        ComboPooledDataSource dataSource=new ComboPooledDataSource();
+        QueryRunner queryRunner=new QueryRunner(dataSource);
+        String sql="select * from user where name=? and password=?";
+        User user = queryRunner.query(sql, new BeanHandler<User>(User.class),name,password);
+        return  user;
     }
 }
