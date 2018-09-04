@@ -2,8 +2,9 @@ package net.zixue.web;
 import net.zixue.bean.User;
 import net.zixue.service.UserService;
 import java.io.IOException;
+import javax.servlet.annotation.WebServlet;
 
-@javax.servlet.annotation.WebServlet(name = "RegisterServlet",urlPatterns="/register")
+@WebServlet(name = "RegisterServlet",urlPatterns="/register")
 public class RegisterServlet extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         String name = request.getParameter("name");
